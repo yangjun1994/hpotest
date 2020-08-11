@@ -24,5 +24,5 @@ if __name__ == '__main__':
     p2 = arguments.pop('p2')
     p3 = arguments.pop('p3')
     print('loss=%f'%(p1))
-    print('loss=%f'%(p2))
-    print('loss=%f'%(p3))
+    #print('loss=%f'%(p2))
+    #print('loss=%f'%(p3))
