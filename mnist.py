@@ -52,7 +52,7 @@ class MnistNetwork(object):
                 print(
                     'input dim cannot be sqrt and reshape. input dim: ' + str(self.x_dim))
                 # logger.debug(
-                    'input dim cannot be sqrt and reshape. input dim: %s', str(self.x_dim))
+                    # 'input dim cannot be sqrt and reshape. input dim: %s', str(self.x_dim))
                 raise
             x_image = tf.reshape(self.images, [-1, input_dim, input_dim, 1])
 
