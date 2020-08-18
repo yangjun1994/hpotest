@@ -221,11 +221,7 @@ def get_params():
 if __name__ == '__main__':
     print('start hpo test')
     params = get_params()
-    print('channel_1_num is ',params['channel_1_num'])
-    print('channel_2_num is ',params['channel_2_num'])
-    print('conv_size is ',params['conv_size'])
-    print('hidden_size is ',params['hidden_size'])
-    print('pool_size is ',params['pool_size'])
-    print('learning_rate is ',params['learning_rate'])
-    # main(params)
+    print(params)
+
+    main(params.__dict__)
     print('train end')
