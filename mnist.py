@@ -220,7 +220,7 @@ def get_params():
 
 if __name__ == '__main__':
     print('start hpo test')
-    params = get_params
+    params = get_params()
     print('channel_1_num is ',params['channel_1_num'])
     print('channel_2_num is ',params['channel_2_num'])
     print('conv_size is ',params['conv_size'])
